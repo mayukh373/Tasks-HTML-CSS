@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-9</title>
+    <style>
+        .navbar {
+            position: absolute;
+        }
+
+        .navbar a {
+            transition: 0.5s;
+            display: block;
+            margin-left: -100px;
+            width: 100px;
+            padding: 15px;
+            border-radius: 0 5px 5px 0;
+            text-decoration: none;
+            color: white;
+            margin-bottom: 5px;
+        }
+
+        .navbar a:hover {
+            margin-left: -10px;
+        }
+
+        #mongo {
+            background-color: green;
+        }
+
+        #express {
+            background-color: blue;
+        }
+
+        #react {
+            background-color: red;
+        }
+
+        #node {
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="#" id="mongo">MongoDB</a>
+            <a href="#" id="express">Expressjs</a>
+            <a href="#" id="react">Reactjs</a>
+            <a href="#" id="node">Nodejs</a>
+        </div>
+    </nav>
+    <div style="margin-left:80px">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+</body>
+
+</html>

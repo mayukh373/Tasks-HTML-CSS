@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-5</title>
+    <style>
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        table,
+        tr,
+        td {
+            border: 2px solid #000000b1;
+            border-collapse: collapse;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .inputwidth {
+            width: 400px;
+        }
+
+        .leftalign {
+            text-align: left;
+        }
+
+        .rightalign {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registration form</h1>
+    <form>
+        <table align="center">
+            <tr>
+                <td><label for="fn">First Name</label></td>
+                <td><input class="inputwidth" type="text" name="fn" /></td>
+            </tr>
+            <tr>
+                <td><label for="ln">Last Name</label></td>
+                <td><input class="inputwidth" type="text" name="ln" /></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input class="inputwidth" type="text" name="email" /></td>
+            </tr>
+            <tr>
+                <td><label for="pw">Password</label></td>
+                <td><input class="inputwidth" type="password" name="pw" /></td>
+            </tr>
+            <tr>
+                <td><label for="repw">Re-enter Password</label></td>
+                <td><input class="inputwidth" type="password" name="repw" /></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><label for="gen">Gender:</label></td>
+                <td class="leftalign"><input type="radio" name="gen" />Male</td>
+            </tr>
+            <tr>
+                <td class="leftalign"><input type="radio" name="gen" />Female</td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input class="inputwidth" type="number" name="age" /></td>
+            </tr>
+            <tr>
+                <td><label for="ph">Phone Number</label></td>
+                <td><input class="inputwidth" type="number" name="ph" /></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><textarea class="inputwidth"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="state">State</label></td>
+                <td><input class="inputwidth" type="text" name="state" /></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td class="leftalign">
+                    <select>
+                        <option>Choose your country</option>
+                        <option>India</option>
+                        <option>Australia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="lang">Languages known</label></td>
+                <td class="leftalign">
+                    <input type="checkbox" />English
+                    <input type="checkbox" />Kannada
+                    <input type="checkbox" />Hindi
+                    <input type="checkbox" />Telegu
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="leftalign"><input type="checkbox" />Hereby I declare all the given details are
+                    true</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="rightalign">Log in to <a href="https://www.codemithra.com">Ethnus</a> website
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

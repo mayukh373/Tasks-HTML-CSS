@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-7</title>
+    <style>
+        .main {
+            display: flex;
+        }
+
+        .vnav {
+            padding: 5px;
+            padding-top: 3px;
+            padding-bottom: 0px;
+            width: 180px;
+            margin-right: 50px;
+            border: 1px solid #000000;
+        }
+
+        .vnav ul {
+            width: 100%;
+            margin: 0px;
+            list-style: none;
+            background-color: rgb(71, 217, 247);
+            padding:0px;
+        }
+
+        .vnav li a {
+            box-sizing: border-box;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            padding: 8px 4px;
+        }
+
+        .vnav li a.active {
+            background-color: rgb(255, 153, 0);
+            color: #ffffff;
+        }
+
+        .vnav li a:hover:not(.active) {
+            background-color: rgba(0, 0, 0, 0.151);
+        }
+
+        h5 {
+            padding-left: 20px;
+        }
+
+        .hnav{
+            padding: 15px 5px 15px 5px;
+            border: 1px solid #000000;
+            display:inline-block;
+        }
+
+        .hnav ul {
+            margin: 0px;
+            list-style:none;
+            padding:0px;
+            background-color:rgba(154, 148, 148, 0.297);
+        }
+
+        .hnav li {
+            float: left;
+        }
+
+        .hnav li a {
+            text-decoration:none;
+            color:blue;
+            width:100%;
+            padding:8px;
+            border-right:1px solid blue;
+        }
+
+        .hnav li a.active {
+            background-color: rgb(120, 117, 117);
+            color: #ffffff;
+        }
+
+        .hnav li a:not(.active) {
+            background-color: rgba(128, 128, 128, 0.416);
+        }
+
+        .hnav li a:hover:not(.active) {
+            background-color: rgba(0, 0, 0, 0.151);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div>
+            <h5>Vertical Navigation Bar</h5>
+            <div class="vnav">
+                <ul>
+                    <li><a class="active" href="task7.html">Home</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li id="bs"><a href="#">Bootstrap</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <h5>Horizontal Navigation Bar</h5>
+            <div class="hnav">
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li class="css"><a href="#">CSS</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+
+
+</body>
+
+</html>

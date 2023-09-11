@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.imgcontainer {
+    text-align: center;
+}
+
+.ipcontainer {
+    display: grid;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#fgpw {
+    float: right;
+    font-size: small;
+    padding-top: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+.unameinput,
+.pwinput {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1.5px solid rgba(0, 0, 0, 0.132);
+}
+
+.loginbtn {
+    background-color: rgba(0, 128, 0, 0.653);
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.rem {
+    margin: 8px 0px;
+}
+
+.cancel {
+    background-color: red;
+    border-radius: 5px;
+    padding: 6px 10px;
+    border: none;
+    color: white;
+}
+
+.bottomcontainer {
+    padding: 10px 0px 4px 0px;
+    background-color: rgb(239, 237, 237);
+    border-top: 1.5px solid rgba(0, 0, 0, 0.132);
+}
+
+.arrow {
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: right;
+}
+
+.arrowbtn {
+    border: none;
+    background: none;
+}
